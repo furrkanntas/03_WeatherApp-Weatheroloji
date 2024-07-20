@@ -15,7 +15,6 @@ jspm_packages/
 # Build directories
 dist/
 build/
-public/
 
 # Hidden files
 .DS_Store
