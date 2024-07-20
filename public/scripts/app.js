@@ -75,26 +75,17 @@ const updateUI = async (data) => {
         card.classList.remove('hidden');
     }
 
-    const dayMain = document.getElementById('dayMain');
-    const dayTwo = document.getElementById('dayTwo');
-    const dayThree = document.getElementById('dayThree');
+    const daysArray = document.querySelectorAll('.days');
 
-    dayMain.querySelector('#dayMainDay').textContent = dateFns.format(dateFns.addDays(now, 1), 'EEEE');
-    dayTwo.querySelector('#dayTwoDay').textContent = dateFns.format(dateFns.addDays(now, 2), 'EEEE');
-    dayThree.querySelector('#dayThreeDay').textContent = dateFns.format(dateFns.addDays(now, 3), 'EEEE');
+    daysArray.forEach((day, i) => {
+        console.log(day)
+        day.children[0].textContent = dateFns.format(dateFns.addDays(now, i+1), 'EEEE');
+        day.children[2].children[0].textContent = Math.round(dailyForecast[i+1].Temperature.Minimum.Value);
+        day.children[2].children[1].textContent = Math.round(dailyForecast[i+1].Temperature.Maximum.Value);
+    
+        day.children[1].src = `img/icons/${dailyForecast[i+1].Day.Icon}.svg`;
 
-    dayMain.querySelector('#dayMainDayLowestTemp').textContent = Math.round(dailyForecast[1].Temperature.Minimum.Value);
-    dayMain.querySelector('#dayMainDayHighestTemp').textContent = Math.round(dailyForecast[1].Temperature.Maximum.Value);
-
-    dayTwo.querySelector('#dayTwoDayLowestTemp').textContent = Math.round(dailyForecast[2].Temperature.Minimum.Value);
-    dayTwo.querySelector('#dayTwoDayHighestTemp').textContent = Math.round(dailyForecast[2].Temperature.Maximum.Value);
-
-    dayThree.querySelector('#dayThreeDayLowestTemp').textContent = Math.round(dailyForecast[3].Temperature.Minimum.Value);
-    dayThree.querySelector('#dayThreeDayHighestTemp').textContent = Math.round(dailyForecast[3].Temperature.Maximum.Value);
-
-    dayMain.querySelector('img').src = `img/icons/${dailyForecast[1].Day.Icon}.svg`;
-    dayTwo.querySelector('img').src = `img/icons/${dailyForecast[2].Day.Icon}.svg`;
-    dayThree.querySelector('img').src = `img/icons/${dailyForecast[3].Day.Icon}.svg`;
+    })
 };
 
 cityForm.addEventListener('submit', e => {
