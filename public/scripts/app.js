@@ -78,10 +78,9 @@ const updateUI = async (data) => {
     const daysArray = document.querySelectorAll('.days');
 
     daysArray.forEach((day, i) => {
-        console.log(day)
         day.children[0].textContent = dateFns.format(dateFns.addDays(now, i+1), 'EEEE');
         day.children[2].children[0].textContent = Math.round(dailyForecast[i+1].Temperature.Minimum.Value);
-        day.children[2].children[1].textContent = Math.round(dailyForecast[i+1].Temperature.Maximum.Value);
+        day.children[2].children[2].textContent = Math.round(dailyForecast[i+1].Temperature.Maximum.Value);
     
         day.children[1].src = `img/icons/${dailyForecast[i+1].Day.Icon}.svg`;
 
