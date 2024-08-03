@@ -1,10 +1,10 @@
 export default class Forecast {
     constructor() {
         this.key = '5xvbIkAIgrProKYZpGa8Q0t30cBjSw3t';
-        this.weatherURI = 'http://dataservice.accuweather.com/currentconditions/v1/';
-        this.cityURI = 'http://dataservice.accuweather.com/locations/v1/cities/search';
-        this.timezoneURI = 'http://dataservice.accuweather.com/locations/v1/';
-        this.dailyForecastURI = 'http://dataservice.accuweather.com/forecasts/v1/daily/5day/';
+        this.weatherURI = 'https://dataservice.accuweather.com/currentconditions/v1/';
+        this.cityURI = 'https://dataservice.accuweather.com/locations/v1/cities/search';
+        this.timezoneURI = 'https://dataservice.accuweather.com/locations/v1/';
+        this.dailyForecastURI = 'https://dataservice.accuweather.com/forecasts/v1/daily/5day/';
     }
 
     async updateCity(city) {
