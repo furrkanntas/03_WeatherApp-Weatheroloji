@@ -6,7 +6,7 @@ const details = document.querySelector('.details');
 const forecast = new Forecast();
 
 const loadAdviseData = async () => {
-    const response = await fetch('/public/advise.json');
+    const response = await fetch('./advise.json');
     const data = await response.json();
     return data;
 };
