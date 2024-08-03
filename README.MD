@@ -2,6 +2,8 @@
 
 Weatheroloji is a weather application that provides current weather conditions and a 3-day forecast for any city. It uses the AccuWeather API to fetch weather data and displays it in a user-friendly interface.
 
+![Night](public/img/weatherAppDs.gif)
+
 ## Features
 
 - **Current Weather Conditions**: Displays the current temperature, weather icon, and description.
@@ -54,8 +56,10 @@ app.js: JavaScript file that handles data fetching, UI updates, and event handli
 
 ## Screenshots
 
-- **Main Interface:**
-- **Weather Details:**
+- **Night Interface:**
+![Night](public/img/1Night.jpg)
+- **Day Interface:**
+![Day](public/img/1Day.jpg)
 
 ## API Key
 
