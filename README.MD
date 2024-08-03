@@ -1,6 +1,6 @@
 # Weatheroloji
 
-🟩 **Live Demo:** <a href="https://furrkanntas.github.io/03_WeatherApp-Weatheroloji/" target="_blank" rel="noopener noreferrer">Let's Do It - Live Link</a>
+🟩 **Live Demo:** <a href="https://furrkanntas.github.io/03_WeatherApp-Weatheroloji/" target="_blank" rel="noopener noreferrer">Weatheroloji - Live Link</a>
 
 🟨 **Other Projects:** <a href="https://furrkanntas.github.io/01_FT-Portfolio/index.html" target="_blank" rel="noopener noreferrer">Explore My Projects</a>
 
@@ -86,6 +86,6 @@ Stay weather-aware!
 Best regards,  
 **Furkan Taş**
 
-🟩 **Live Demo:** <a href="https://furrkanntas.github.io/03_WeatherApp-Weatheroloji/" target="_blank" rel="noopener noreferrer">Let's Do It - Live Link</a>
+🟩 **Live Demo:** <a href="https://furrkanntas.github.io/03_WeatherApp-Weatheroloji/" target="_blank" rel="noopener noreferrer">Weatheroloji - Live Link</a>
 
 🟨 **Other Projects:** <a href="https://furrkanntas.github.io/01_FT-Portfolio/index.html" target="_blank" rel="noopener noreferrer">Explore My Projects</a>
