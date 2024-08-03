@@ -1,5 +1,9 @@
 # Weatheroloji
 
+🟩 **Live Demo:** <a href="https://furrkanntas.github.io/03_WeatherApp-Weatheroloji/" target="_blank" rel="noopener noreferrer">Let's Do It - Live Link</a>
+
+🟨 **Other Projects:** <a href="https://furrkanntas.github.io/01_FT-Portfolio/index.html" target="_blank" rel="noopener noreferrer">Explore My Projects</a>
+
 Weatheroloji is a weather application that provides current weather conditions and a 3-day forecast for any city. It uses the AccuWeather API to fetch weather data and displays it in a user-friendly interface.
 
 ![Night](public/img/weatherAppDs.gif)
@@ -80,4 +84,8 @@ Thank you for exploring Weatheroloji! We hope this application helps you stay in
 Stay weather-aware!
 
 Best regards,  
-Furkan Taş
+**Furkan Taş**
+
+🟩 **Live Demo:** <a href="https://furrkanntas.github.io/03_WeatherApp-Weatheroloji/" target="_blank" rel="noopener noreferrer">Let's Do It - Live Link</a>
+
+🟨 **Other Projects:** <a href="https://furrkanntas.github.io/01_FT-Portfolio/index.html" target="_blank" rel="noopener noreferrer">Explore My Projects</a>
